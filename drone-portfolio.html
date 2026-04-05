@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drone Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: #f8f9fb;
+    color: #1a1d23;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 3rem;
+  }
+
+  h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .subtitle {
+    text-align: center;
+    color: #6b7280;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .item {
+    background: #fff;
+    border: 1px solid #e2e5ea;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .item video,
+  .item img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    background: #000;
+  }
+
+  .item-body {
+    padding: 1.25rem 1.5rem;
+  }
+  .item-body h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .item-body p {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+ 
+  footer {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+</style>
+</head>
+<body>
+   
+<div class="page">
+
+  <h1>Previous Work</h1>
+  <p class="subtitle">Aerial photography and videography.</p>
+
+ 
+  <div class="item">
+    <video src="sea.mp4" controls playsinline></video>
+    <div class="item-body">
+      <h3>Whitley bay beach swimming session</h3>
+      
+    </div>
+  </div>
+
+ 
+  <div class="item">
+    <img src="priory.jpg" alt="Aerial photo">
+    <div class="item-body">
+      <h3>Tynemouth priory</h3>
+      
+    </div>
+  </div>
+
+</div>
+<footer>&copy; 2026 Drone Portfolio</footer>
+</body>
+</html>
